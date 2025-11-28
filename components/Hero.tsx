@@ -5,18 +5,11 @@ export default function Hero() {
   return (
     <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        
-        {/* Badge */}
-        <div className="inline-flex items-center rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-sm leading-6 text-zinc-600 mb-8 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400">
-          <span>v2.0 is now available</span>
-          <span className="ml-2 inline-block h-4 w-px bg-zinc-200 dark:bg-zinc-700"></span>
-          <a href="#" className="ml-2 font-semibold text-blue-600 dark:text-blue-400 hover:underline">Read more &rarr;</a>
-        </div>
 
         {/* Heading */}
         <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl dark:text-zinc-50">
-          Build your next idea <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600">
+          Kamu ingin fokus? <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#672409] to-violet-600">
             faster than ever.
           </span>
         </h1>

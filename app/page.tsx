@@ -13,7 +13,7 @@ export default function Home() {
         <Hero />
         
         {/* Example Content Section to show scrolling */}
-        <section className="py-24 bg-zinc-50 dark:bg-zinc-900/50">
+        <section className="py-24 bg-[#DDA66D] dark:bg-zinc-900/50">
            <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
               <h2 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
                 Ready to dive in?
