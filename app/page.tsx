@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#DDA66D] dark:bg-black font-sans selection:bg-zinc-200 dark:selection:bg-zinc-800">
+    <div className="min-h-screen bg-[#DDA66D] font-sans selection:bg-zinc-200">
       
       {/* Navigation */}
       <Navbar />
@@ -13,9 +13,9 @@ export default function Home() {
         <Hero />
         
         {/* Example Content Section to show scrolling */}
-        <section className="py-24 bg-[#DDA66D] dark:bg-zinc-900/50">
+        <section className="py-24 bg-[#DDA66D]">
            <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+              <h2 className="text-3xl font-bold tracking-tight text-zinc-900">
                 Jangan lupa fufufafa
               </h2>
            </div>
