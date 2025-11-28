@@ -1,25 +1,16 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Testimonials from "@/components/Testimonials"; // <--- Import it
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#DDA66D] font-sans selection:bg-zinc-200">
-      
-      {/* Navigation */}
       <Navbar />
 
       <main>
-        {/* Hero Section */}
         <Hero />
         
-        {/* Example Content Section to show scrolling */}
-        <section className="py-24 bg-[#DDA66D]">
-           <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-zinc-900">
-                Jangan lupa fufufafa
-              </h2>
-           </div>
-        </section>
+        <Testimonials />
       </main>
 
       {/* Simple Footer */}
