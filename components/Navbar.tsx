@@ -36,9 +36,12 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="bg-white hover:bg-zinc-800 text-black dark:bg-white dark:text-black dark:hover:bg-zinc-200 px-4 py-2 rounded-full text-sm font-medium transition-colors">
-              Pesan Sekarang
-            </button>
+            <Link 
+            href="http://ipb.link/preorder-cufucafa"  // Change this to your page path
+            className="bg-white hover:bg-zinc-800 text-black border border-zinc-200 dark:bg-white dark:text-black dark:hover:bg-zinc-200 px-4 py-2 rounded-full text-sm font-medium transition-colors"
+            >
+            Pesan Sekarang
+            </Link>
           </div>
         </div>
       </div>
