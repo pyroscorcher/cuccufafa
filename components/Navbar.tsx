@@ -8,14 +8,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo Section */}
-          <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-            <div className="h-8 w-8 bg-black dark:bg-white rounded-lg flex items-center justify-center">
-                <span className="text-white dark:text-black font-bold text-lg">N</span>
-            </div>
-            <span className="font-bold text-xl tracking-tight text-zinc-900 dark:text-zinc-100">
-              NextBrand
-            </span>
-          </div>
+            <Link href="/" className="flex-shrink-0 flex items-center gap-2">
+                {/* Replaced the "N" box with this Image component */}
+                <Image 
+                src="/Logo.png"       // Make sure 'logo.png' is in your 'public' folder
+                alt="CufuCafa Logo"
+                width={32}            // Width in pixels
+                height={32}           // Height in pixels
+                priority              // Loads the logo immediately
+                />
+            </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
@@ -24,10 +26,10 @@ export default function Navbar() {
                 Home
               </Link>
               <Link href="#" className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
-                Features
+                Fitur
               </Link>
               <Link href="#" className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">
-                Pricing
+                Promo
               </Link>
             </div>
           </div>
@@ -35,7 +37,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <button className="bg-black hover:bg-zinc-800 text-white dark:bg-white dark:text-black dark:hover:bg-zinc-200 px-4 py-2 rounded-full text-sm font-medium transition-colors">
-              Get Started
+              Pesan Sekarang
             </button>
           </div>
         </div>
