@@ -9,7 +9,7 @@ export default function Hero() {
         {/* Heading */}
         <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl dark:text-zinc-50">
           Kamu ingin fokus? <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#672409]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-[#672409]">
             dengan kopi?
           </span>
         </h1>

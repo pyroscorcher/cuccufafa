@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-black font-sans selection:bg-zinc-200 dark:selection:bg-zinc-800">
+    <div className="min-h-screen bg-[#DDA66D] dark:bg-black font-sans selection:bg-zinc-200 dark:selection:bg-zinc-800">
       
       {/* Navigation */}
       <Navbar />
