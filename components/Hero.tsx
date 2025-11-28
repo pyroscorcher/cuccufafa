@@ -9,25 +9,15 @@ export default function Hero() {
         {/* Heading */}
         <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl dark:text-zinc-50">
           Kamu ingin fokus? <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#672409] to-violet-600">
-            faster than ever.
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#672409]">
+            dengan kopi?
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="mt-6 text-lg leading-8 text-zinc-600 max-w-2xl mx-auto dark:text-zinc-400">
-          A properly structured Next.js website template. Includes a responsive navbar, a modern hero section, and dark mode support out of the box.
+            Kopi CufuCafa disajikan dengan rasa yang manis dan creamy, dengan cita rasa homemade.
         </p>
-
-        {/* Buttons */}
-        <div className="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" className="rounded-full bg-black px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black dark:bg-white dark:text-black dark:hover:bg-zinc-200">
-            Start Building
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-zinc-900 dark:text-zinc-100">
-            Learn more <span aria-hidden="true">→</span>
-          </a>
-        </div>
 
         {/* Abstract Visual / Image Placeholder */}
         <div className="mt-16 flow-root sm:mt-24">
