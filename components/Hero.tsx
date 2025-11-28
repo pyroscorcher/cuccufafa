@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
 
         {/* Heading */}
-        <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl dark:text-zinc-50">
+        <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-6xl">
           Kamu ingin fokus? <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-black to-[#672409]">
             dengan kopi?
@@ -15,7 +15,7 @@ export default function Hero() {
         </h1>
 
         {/* Subtitle */}
-        <p className="mt-6 text-lg leading-8 text-zinc-600 max-w-2xl mx-auto dark:text-zinc-400">
+        <p className="mt-6 text-lg leading-8 text-zinc-600 max-w-2xl mx-auto">
             Kopi CufuCafa disajikan dengan rasa yang manis dan creamy, dengan cita rasa homemade.
         </p>
 
