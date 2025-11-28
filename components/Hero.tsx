@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="-m-2 rounded-xl bg-zinc-900/5 p-2 ring-1 ring-inset ring-zinc-900/10 lg:-m-4 lg:rounded-2xl lg:p-4 dark:bg-white/10 dark:ring-white/10">
             
             {/* The container determines the size (16:9 ratio) */}
-            <div className="relative aspect-[16/9] overflow-hidden rounded-md bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
+            <div className="relative aspect-[9/16] overflow-hidden rounded-md bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
                 
                 {/* PUT YOUR IMAGE HERE */}
                 <Image 
