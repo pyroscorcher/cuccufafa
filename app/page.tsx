@@ -27,7 +27,7 @@ export default function Home() {
 
       {/* Simple Footer */}
       <footer className="py-10 text-center text-sm text-zinc-500 border-t border-zinc-200 dark:border-zinc-800">
-        <p>© 2024 MyBrand Inc. All rights reserved.</p>
+        <p>© 2025 CufuCafa All rights reserved.</p>
       </footer>
     </div>
   );

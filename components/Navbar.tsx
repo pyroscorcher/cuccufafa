@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#672409] backdrop-blur-md border-b border-zinc-200">
-      <div className="w-max mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo Section */}
             <Link href="/" className="w-max flex-shrink-0 flex items-center gap-2">
@@ -13,8 +13,8 @@ export default function Navbar() {
                 <Image 
                 src="/Logo.png"       // Make sure 'logo.png' is in your 'public' folder
                 alt="CufuCafa Logo"
-                width={32}            // Width in pixels
-                height={32}           // Height in pixels
+                width={64}            // Width in pixels
+                height={64}           // Height in pixels
                 priority              // Loads the logo immediately
                 />
             </Link>
