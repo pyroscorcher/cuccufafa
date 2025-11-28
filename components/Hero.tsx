@@ -22,9 +22,19 @@ export default function Hero() {
         {/* Abstract Visual / Image Placeholder */}
         <div className="mt-16 flow-root sm:mt-24">
           <div className="-m-2 rounded-xl bg-zinc-900/5 p-2 ring-1 ring-inset ring-zinc-900/10 lg:-m-4 lg:rounded-2xl lg:p-4 dark:bg-white/10 dark:ring-white/10">
-             {/* Replace the src below with your actual hero image */}
-            <div className="relative aspect-[16/9] overflow-hidden rounded-md bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 flex items-center justify-center">
-                 <p className="text-zinc-400 dark:text-zinc-600 font-mono text-sm">[ Hero Image Placeholder ]</p>
+            
+            {/* The container determines the size (16:9 ratio) */}
+            <div className="relative aspect-[16/9] overflow-hidden rounded-md bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
+                
+                {/* PUT YOUR IMAGE HERE */}
+                <Image 
+                  src="/hero.png"
+                  alt="App screenshot"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+                
             </div>
           </div>
         </div>
