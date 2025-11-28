@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
+import Testimonials from "@/components/Testi";
 
 export default function Home() {
   return (
